@@ -30,10 +30,10 @@ export default function CallToActionWithAnnotation() {
           textAlign={'left'}
           spacing={{ base: 8, md: 14 }}
           px={{ base: 4, md: 8, lg: 16 }}
-          py={{ base: 12, md: 150 }}>
+          py={{ base: 100, md: 150 }}>
           <Heading
             fontWeight={'bold'}
-            fontSize={{ base: '2xl', sm: '4xl', md: '100px' }}
+            fontSize={{ base: '4xl', sm: '4xl', md: '6xl', lg: '80px' }}
             lineHeight={'110%'}
             as={'h1'}>
             Tecnologías de <br /> Seguridad <br />
@@ -41,31 +41,11 @@ export default function CallToActionWithAnnotation() {
               Grupo 6
             </Text>
           </Heading>
-          <Text  textAlign={'left'} color={'gray.500'} pl={0} maxW={'900px'}>
-            Monetize your content by charging your most loyal readers and reward
-            them loyalty points. Give back to your loyal readers by granting
-            them access to your pre-releases and sneak-peaks.
+          <Text padding={2} rounded='lg' textAlign={'left'} fontWeight={'bold'} color={'gray.900'} pl={0} maxW={'900px'} bg={'rgba(256,256,256,0.1)'}>
+          Sitio Web Seguro en Windows Server 2016
           </Text>
           <Image />
-          <Stack
-            direction={'column'}
-            spacing={3}
-            align={'center'}
-            alignSelf={'center'}
-            position={'relative'}>
-            <a href="#team">
-                <Button
-                colorScheme={'green'}
-                bg={'green.400'}
-                rounded={'full'}
-                px={6}
-                _hover={{
-                    bg: 'green.500',
-                }}>
-                Get Started
-                </Button>
-                </a>
-          </Stack>
+          
         </Stack>
       </Container>
     </>

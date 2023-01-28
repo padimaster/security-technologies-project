@@ -42,37 +42,45 @@ const Team = () => {
         </Stack>
       </Flex>
       <Center>
-      <Wrap spacing='20px'>
+      <Wrap spacing='20px' justify="space-evenly">
         <WrapItem m={'0'}>
             <MemberCard
-              src="/images/maria.png"
-              name="MARIA ZAMORA"
-              title="Presidenta"
-              description="Líder de la Corporación Nueva Siembra"
+              src="/images/isai.jpeg"
+              name="Isai Saransig"
+              title="IT"
+              description="Ingeniero de Software"
             />
         </WrapItem>
         <WrapItem>
             <MemberCard
-              src="/images/maria.png"
-              name="MARIA ZAMORA"
-              title="Presidenta"
-              description="Líder de la Corporación Nueva Siembra"
+              src="/images/ricardo.jpeg"
+              name="Ricardo Sosa"
+              title="IT"
+              description="Ingeniero de Software"
             />
         </WrapItem>
         <WrapItem>
             <MemberCard
-              src="/images/maria.png"
-              name="MARIA ZAMORA"
-              title="Presidenta"
-              description="Líder de la Corporación Nueva Siembra"
+              src="/images/alex.jpeg"
+              name="Alex Padilla"
+              title="IT"
+              description="Ingeniero de Software"
             />
         </WrapItem>
         <WrapItem>
             <MemberCard
-              src="/images/maria.png"
-              name="MARIA ZAMORA"
-              title="Presidenta"
-              description="Líder de la Corporación Nueva Siembra"
+              src="/images/cantu.jpeg"
+              name="Andres Cantuna"
+              title="IT"
+              description="Ingeniero de Software"
+            />
+        </WrapItem>
+        <WrapItem>
+            <MemberCard
+              src="/images/gabriel.jpeg"
+              name="Steeven Panchi"
+              title="IT"
+              description="Ingeniero de Software"
             />
         </WrapItem>
       </Wrap>
